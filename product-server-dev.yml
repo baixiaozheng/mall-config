@@ -22,3 +22,10 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL5Dialect
+
+info:
+  app.name: mall-product-server-app
+
+logging:
+  level:
+    org.springframework.web: TRACE
